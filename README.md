@@ -21,6 +21,8 @@ megabox site New
   <li><a href="https://wtss.tistory.com/294">15. 메가박스 사이트 만들기(2019) - 공지사항 / 탭 메뉴</a></li>
   <li><a href="https://wtss.tistory.com/295">16. 메가박스 사이트 만들기(2019) - 메가박스 할인카드</a></li>
   <li><a href="https://wtss.tistory.com/296">17. 메가박스 사이트 만들기(2019) - 고객센터 / SVG</a></li>
+  <li><a href="https://wtss.tistory.com/297">18. 메가박스 사이트 만들기(2019) - 헬프 영역 반응형</a></li>
+  <li><a href="https://wtss.tistory.com/298">19. 메가박스 사이트 만들기(2019) - 푸터 영역</a></li>
 </ul>
 
 
@@ -46,4 +48,6 @@ megabox site New
   <li><a href="https://webstoryboy.github.io/megabox2019/mega294_15.html">15. 메가박스 사이트 만들기(2019) - 공지사항 / 탭 메뉴</a></li>
   <li><a href="https://webstoryboy.github.io/megabox2019/mega295_16.html">16. 메가박스 사이트 만들기(2019) - 메가박스 할인카드</a></li>
   <li><a href="https://webstoryboy.github.io/megabox2019/mega296_17.html">17. 메가박스 사이트 만들기(2019) - 고객센터 / SVG</a></li>
+  <li><a href="https://webstoryboy.github.io/megabox2019/mega297_18.html">18. 메가박스 사이트 만들기(2019) - 헬프 영역 반응형</a></li>
+  <li><a href="https://webstoryboy.github.io/megabox2019/mega298_19.html">19. 메가박스 사이트 만들기(2019) - 푸터 영역</a></li>
 </ul>
