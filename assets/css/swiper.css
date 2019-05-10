@@ -68,6 +68,10 @@
     background: #000; 
     opacity: .5;
 }
+.movie_chart .swiper-slide:after {
+    background: transparent;
+}
+
 .swiper-slide-invisible-blank {
     visibility: hidden;
 }
