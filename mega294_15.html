@@ -7,11 +7,11 @@
     <meta name="author" content="webstoryboy">
     <meta name="description" content="메가박스 사이트 따라하면서 배우는 튜토리얼입니다.">
     <meta name="keywords" content="메가박스, 유투브, 영화, 최신영화, 영화관, CGV, 롯데시네마, 웹스토리보이, 웹스, 사이트 만들기, 따라하기, 이미지 슬라이드">
-    <title>메가박스 사이트 코딩하기 : 유튜브 API 이용하기</title>
+    <title>메가박스 사이트 코딩하기 : 공지사항</title>
 
     <!-- css -->
-    <link rel="stylesheet" href="assets/css/reset14.css">
-    <link rel="stylesheet" href="assets/css/style14.css">
+    <link rel="stylesheet" href="assets/css/reset15.css">
+    <link rel="stylesheet" href="assets/css/style15.css">
     <link rel="stylesheet" href="assets/css/swiper.css">
     
     <!-- 파비콘 -->
@@ -794,6 +794,86 @@
     </section>
     <!-- //new -->
     
+    
+    <section id="help">
+        <div class="container">
+            <div class="row">
+                <div class="help clearfix">
+                    <article class="help_box1">
+                        <h3><em>공지사항</em></h3>
+                        <div class="notice">
+                            <ul>
+                                <li class="active"><a href="#">전체 공지</a>
+                                    <ul>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">전체</strong> <em>2019.01.25</em></dt>
+                                                <dd>[무대인사] (뺑반) 1주차~ (뺑반) 1주차~ (뺑반) 1주차~ (뺑반) 1주차~ (뺑반) 1주차~</dd>
+                                            </dl>            
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">강남</strong> <em>2019.01.25</em></dt>
+                                                <dd>[라이브뷰잉] 플라잉독 10주년 기념 라이브 10주년 기념 라이브 10주년 기념 라이브..</dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">안양</strong> <em>2019.01.25</em></dt>
+                                                <dd>[무대인사] (내 안의 그놈) 1주차 1주차 1주차 1주차 1주차 1주차 1주차 1주차 </dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">전체</strong> <em>2019.01.25</em></dt>
+                                                <dd>[공지] 2019년 1월 VIP 미션 이벤트 1월 VIP 미션 이벤트 1월 VIP 미션 이벤트</dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">영화관 공지</a>
+                                    <ul>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">전체</strong> <em>2019.01.25</em></dt>
+                                                <dd>[무대인사] (내 안의 그놈) 1주차 1주차 1주차 1주차 1주차 1주차 1주차 1주차</dd>
+                                            </dl>            
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">강남</strong> <em>2019.01.25</em></dt>
+                                                <dd>[무대인사] (내 안의 그놈) 1주차 1주차 1주차 1주차 1주차 1주차 1주차 1주차</dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">안양</strong> <em>2019.01.25</em></dt>
+                                                <dd>[무대인사] (내 안의 그놈) 1주차 1주차 1주차 1주차 1주차 1주차 1주차 1주차 </dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt><strong class="bar">전체</strong> <em>2019.01.25</em></dt>
+                                                <dd>[공지] 2019년 1월 VIP 미션 이벤트 1월 VIP 미션 이벤트 1월 VIP 미션 이벤트</dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="help_box2">
+                        
+                    </article>
+                    <article class="help_box3">
+                        
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //help -->
+    
 
     <!-- 트레일러 -->
     <aside role="complementary" id="blackout" class="overlay">
@@ -871,6 +951,25 @@
             movCont.css("display","none");
             movCont.eq(index).css("display","block");
         });
+        
+        //공지사항 탭 메뉴
+        var tabMenu = $(".notice");
+
+        //컨텐츠 내용을 숨겨주세요!
+        tabMenu.find("ul > li > ul").hide();
+        tabMenu.find("li.active > ul").show();
+
+        function tabList(e){
+            e.preventDefault();       //#의 기능을 차단
+            var target = $(this);
+            target.next().show().parent("li").addClass("active").siblings("li").removeClass("active").find("ul").hide();
+            //버튼을 클릭하면 ~ div를 보여주고
+            //부모의 li 태그에 클래스 추가하고
+            //형제의 li 태그에 클래스 제거하고
+            //제거한 자식의 div 태그를 숨겨줌 
+        }
+
+        tabMenu.find("ul > li > a").click(tabList).focus(tabList);
         
     </script>
 </body>
