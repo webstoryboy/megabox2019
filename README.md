@@ -16,6 +16,7 @@ megabox site New
   <li><a href="https://wtss.tistory.com/289">10. 메가박스 사이트 만들기(2019) - 영화 차트 이미지 슬라이드 반응형</a></li>
   <li><a href="https://wtss.tistory.com/290">11. 메가박스 사이트 만들기(2019) - 이벤트 영역</a></li>
   <li><a href="https://wtss.tistory.com/291">12. 메가박스 사이트 만들기(2019) - 오프닝 영역</a></li>
+  <li><a href="https://wtss.tistory.com/292">13. 메가박스 사이트 만들기(2019) - 새로운 영화 영역</a></li>
 </ul>
 
 
@@ -36,4 +37,5 @@ megabox site New
   <li><a href="https://webstoryboy.github.io/megabox2019/mega289_10.html">10. 메가박스 사이트 만들기(2019) - 영화 차트 이미지 슬라이드 반응형</a></li>
   <li><a href="https://webstoryboy.github.io/megabox2019/mega290_11.html">11. 메가박스 사이트 만들기(2019) - 이벤트 영역</a></li>
   <li><a href="https://webstoryboy.github.io/megabox2019/mega291_12.html">12. 메가박스 사이트 만들기(2019) - 오프닝 영역</a></li>
+  <li><a href="https://webstoryboy.github.io/megabox2019/mega292_13.html">13. 메가박스 사이트 만들기(2019) - 새로운 영화 영역</a></li>
 </ul>
