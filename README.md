@@ -18,6 +18,9 @@ megabox site New
   <li><a href="https://wtss.tistory.com/291">12. 메가박스 사이트 만들기(2019) - 오프닝 영역</a></li>
   <li><a href="https://wtss.tistory.com/292">13. 메가박스 사이트 만들기(2019) - 새로운 영화 영역</a></li>
   <li><a href="https://wtss.tistory.com/293">14. 메가박스 사이트 만들기(2019) - 유튜브 API 이용하기</a></li>
+  <li><a href="https://wtss.tistory.com/294">15. 메가박스 사이트 만들기(2019) - 공지사항 / 탭 메뉴</a></li>
+  <li><a href="https://wtss.tistory.com/295">16. 메가박스 사이트 만들기(2019) - 메가박스 할인카드</a></li>
+  <li><a href="https://wtss.tistory.com/296">17. 메가박스 사이트 만들기(2019) - 고객센터 / SVG</a></li>
 </ul>
 
 
@@ -40,4 +43,7 @@ megabox site New
   <li><a href="https://webstoryboy.github.io/megabox2019/mega291_12.html">12. 메가박스 사이트 만들기(2019) - 오프닝 영역</a></li>
   <li><a href="https://webstoryboy.github.io/megabox2019/mega292_13.html">13. 메가박스 사이트 만들기(2019) - 새로운 영화 영역</a></li>
   <li><a href="https://webstoryboy.github.io/megabox2019/mega293_14.html">14. 메가박스 사이트 만들기(2019) - 유튜브 API 이용하기</a></li>
+  <li><a href="https://webstoryboy.github.io/megabox2019/mega294_15.html">15. 메가박스 사이트 만들기(2019) - 공지사항 / 탭 메뉴</a></li>
+  <li><a href="https://webstoryboy.github.io/megabox2019/mega295_16.html">16. 메가박스 사이트 만들기(2019) - 메가박스 할인카드</a></li>
+  <li><a href="https://webstoryboy.github.io/megabox2019/mega296_17.html">17. 메가박스 사이트 만들기(2019) - 고객센터 / SVG</a></li>
 </ul>
