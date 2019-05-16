@@ -68,10 +68,6 @@
     background: #000; 
     opacity: .5;
 }
-.movie_chart .swiper-slide:after {
-    background: transparent;
-}
-
 .swiper-slide-invisible-blank {
     visibility: hidden;
 }
@@ -208,3 +204,5 @@ button.swiper-pagination-bullet {
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 4px;
 }
+
+
