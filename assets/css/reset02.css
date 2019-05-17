@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 /* 여백 초기화 */
 body,div,ul,li,dl,dd,dt,ol,h1,h2,h3,h4,h5,h6,input,fieldset,legend,p,select,table,th,td,tr,textarea,button,form,figure,figcaption{margin:0; padding:0;}
 
@@ -32,4 +33,6 @@ video,img {width: 100%;}
 .clearfix{*zoom:1;}
 .clearfix:before, .clearfix:after {display: block; content: '';line-height: 0;}
 .clearfix:after {clear: both;}
+
+
 
