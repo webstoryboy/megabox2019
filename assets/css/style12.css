@@ -4,6 +4,9 @@
 #mNav {display: none; position: absolute; top: 10px; right: 14px;}
 #header {width: 100%; background-color: #fff; border-bottom: 1px solid #c6c6c6;}
 #banner {position: relative;}
+#movie {background-color: #f8f8f8;}
+#event {}
+#opening {margin: 17px 0; background: url(../img/bg01.jpg) no-repeat center top; background-size: cover;}
 
 /* 가운데 영역 */
 .container {position: relative; width: 1280px; margin: 0 auto; background: rgba(0,0,0,0); }
@@ -97,6 +100,28 @@
 .movie_chart > div > div > div .infor .infor_btn a {float: left; width: 49%; margin-right: 2%; text-align: center; background: #f2f2f2; font-size: 18px; padding: 15px 0; box-sizing: border-box;}
 .movie_chart > div > div > div .infor .infor_btn a:last-child {margin-right: 0;}
 
+/* 이벤트 */
+.event {overflow: hidden; padding: 100px 0;}
+.event img {display: block;}
+.event h2 {font-size: 30px; font-weight: 500; margin-bottom: 20px;}
+.event .event_left {overflow: hidden; float: left; width: 66%; margin-right: 2%; }
+.event .event_left .event_box1 {float: left; width: 50%;}
+.event .event_left .event_box2 {float: left; width: 50%;}
+.event .event_right {float: left; width: 32%;}
+
+/* 오프닝 */
+.opening {padding: 100px 0; text-align: center; color: #bb9b51;}
+.opening h2 {margin-bottom: 15px;}
+.opening h2 .grand {background-position: 0 -175px; display: inline-block; width: 330px; height: 50px;}
+.opening .date {background-position: 0 -225px; display: inline-block; width: 260px; height: 45px;}
+.opening .desc {font-size: 35px; font-weight: 300; padding-bottom: 20px; background: url(../img/bar.png) no-repeat bottom center; background-size: 100%;}
+.opening .open_box {overflow: hidden; padding: 20px 3% 0 3%;}
+.opening .open_box > div {float: left; width: 27.333%; margin: 4% 3% 0 3%; box-sizing: border-box; background: rgba(0,0,0,0.5); border: 1px solid #3e4b44;}
+.opening .open_box > div h3 {color: #fff; font-weight: 300; border: 1px solid #6e3abb; margin-top: -24px; font-size: 19px; display: inline-block; padding: 10px 20px; background: #551e9b;}
+.opening .open_box > div p {font-size: 23px; color: #fff; font-weight: 700; padding: 6% 0 10% 0;}
+.opening .open_box > div em {display: block; font-weight: bold;}
+.opening .open_box > div strong {display: block; font-weight: bold;}
+
 
 /* 미디어쿼리 */
 @media (max-width: 1290px){
@@ -128,7 +153,11 @@
     .slider .swiper-slide p {font-size: 16px; padding-top: 35px;}
     
     .movie_title ul {width: auto;}
-    .movie_title li {width: 25%; box-sizing: border-box; }
+    .movie_title li {width: 25%; box-sizing: border-box;}
+    
+    .opening {padding: 50px 0;}
+    .opening .open_box {display: none;}
+    .opening .desc {background: none; font-size: 25px;}
 }
 
 @media (max-width: 768px){
@@ -139,7 +168,8 @@
     .header h1 {text-align: left;}
     .header h1 strong {display: none;}
     
-    #movie .row {background: #fff; margin: 24px; padding: 24px;}
+    #movie {background: none;}
+    #movie .row {background: #fff; margin: 24px 24px 0px 24px; padding: 24px;}
     #movie .ir_so {position: static; width: auto; height: auto; line-height: normal; text-indent: 0; font-size: 24px; font-weight: bold; padding-bottom: 20px;}
     .movie {padding: 0;}
     .movie_title {margin-bottom: 30px;}
@@ -149,6 +179,14 @@
     .movie_title li a {position: relative; font-size: 18px; color: #666; font-weight: 400; padding: 0; margin-right: 35px;}
     .movie_title li.active a:before {content: ''; position: absolute; z-index: 2; left: 0; bottom: -10px; width: 100%; height: 2px; background: #666;}
     .movie_title li.active a {background: none; color: #666;}
+    
+    #event .row {padding: 24px;}
+    .event {padding: 24px; background: #fff;}
+    .event h2 {font-size: 24px; font-weight: 700;}
+    .event .event_left {width: 100%; margin-right: 0;}
+    .event .event_right {display: none;}
+    
+    #opening {margin: 0;}
 }
 
 @media (max-width: 600px){
@@ -179,6 +217,17 @@
     .movie_chart > div > div > div .infor h3 span {display: none;}
     .movie_chart > div > div > div .infor .infor_btn a {width: 52%; margin-left: 24%; display: block; margin-right: 0; padding: 5px; color: #777; margin-bottom: 5px; box-sizing: border-box; font-size: 14px; background: none; border: 1px solid #ddd;}
     .movie_chart > div > div > div .infor .infor_btn a:last-child {display: none;}
+    
+    #event .row {padding: 0 8px;}
+    .event {padding: 16px;}
+    .event h2 {font-size: 18px; margin-bottom: 10px;}
+    
+    #opening {margin: 8px 0;}
+    .opening {padding: 20px 0;}
+    .opening h2 {margin-bottom: 10px;}
+    .opening h2 .grand {background-size: 300px; background-position: 0 -105px; width: 197px; height: 24px;}
+    .opening .date {display: none}
+    .opening .desc {font-size: 16px; font-weight: 400; padding-bottom: 0;}
 }
 
 @media (max-width: 480px){

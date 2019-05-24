@@ -47,64 +47,9 @@ video,img {width: 100%;}
             .icon {background-image: url(../img/icon@2.png); background-size: 500px;}
        }
 
-/* input style */
-input {background-image: none;}
-input[type=button],
-input[type=reset],
-input[type=text],
-input[type=password],
-input[type=submit],
-input[type=search],
-input[type=tel],
-input[type=email] {
-    -webkit-appearance: none;
-    border-radius: 0
-}
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
-}
-input:checked[type=checkbox] {
-    background-color: #666;
-    -webkit-appearance: checkbox
-}
 
-/* 셀렉트 메뉴 로그인 스타일 */
-.ui_select1 { 
-    background: #F8F8F8; height: 26px; border: 1px solid #d9d9d9;
-    padding: 0 5px; border-radius: 0;
-}
-/* 셀렉트 메뉴 메인 스타일 */
-.ui_select2 { 
-    width: 100%; box-sizing: border-box;
-    background: #2c2f34; color: #fff; 
-    display: inline-block; height: 36px; margin: 0; padding: 0 10px;
-    vertical-align: middle; text-align: left; white-space: nowrap;
-    font-family: inherit; font-size: inherit; border: 0 none;
-    background: #2c2f34 url(../img/down.svg) no-repeat right 10px center;
-    background-size: 10px; 
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-/* 로그인 텍스트 박스 스타일1 */
-.ui_input1 { 
-    border: 1px solid #d9d9d9; width: 200px; height: 26px;
-    font-size: 13px; text-indent: 14px; background: #f8f8f8;
-    vertical-align: middle;
-}
-/* 로그인 텍스트 박스 스타일1 */
-.ui_input2 { 
-    border: 1px solid #d9d9d9; width: 100px; height: 26px;
-    font-size: 13px; text-indent: 14px; background: #f8f8f8;
-    vertical-align: middle;
-}
-/* 메인 텍스트 박스 스타일1 */
-.ui_input3 { 
-    background: #2c2f34; color: #fff; 
-    border: 0; width: 100%; height: 36px; padding: 0 10px;
-}
-.form_inline .form_group {display: inline-block; vertical-align: middle;}
+
+
 
 
 
