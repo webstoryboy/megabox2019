@@ -45,7 +45,7 @@ megabox site New
   <li><a href="https://webstoryboy.github.io/megabox2019/mega290_11.html">11. 메가박스 사이트 만들기(2019) - 이벤트 영역</a></li>
   <li><a href="https://webstoryboy.github.io/megabox2019/mega291_12.html">12. 메가박스 사이트 만들기(2019) - 오프닝 영역</a></li>
   <li><a href="https://webstoryboy.github.io/megabox2019/mega292_13.html">13. 메가박스 사이트 만들기(2019) - 새로운 영화 영역</a></li>
-  <li><a href="https://webstoryboy.github.io/megabox2019/mega293_14.html">14. 메가박스 사이트 만들기(2019) - 새로운 영화 영역2</a></li>
+  <li><a href="https://webstoryboy.github.io/megabox2019/mega293_14.html">14. 메가박스 사이트 만들기(2019) - 새로운 영화 영역2</a></li><br>
   
   <li><a href="https://webstoryboy.github.io/megabox2019/mega293_14.html">14. 메가박스 사이트 만들기(2019) - 유튜브 API 이용하기</a></li>
   <li><a href="https://webstoryboy.github.io/megabox2019/mega294_15.html">15. 메가박스 사이트 만들기(2019) - 공지사항 / 탭 메뉴</a></li>
